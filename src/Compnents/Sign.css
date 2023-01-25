@@ -1,0 +1,51 @@
+.SignUp-form{
+    text-align: center;
+    margin-top: 5em;
+}
+.forms{
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+}
+.sign-input{
+display: flex;
+flex-flow: column;
+width: 40%;
+margin: auto;
+text-align: start;
+font-size: 1.1rem;
+
+}
+.sign-input input{
+    padding: .5rem;
+    margin-bottom: 5px;
+}
+.buttons button {
+    padding: .5rem;
+    width:100%;
+    margin: auto;
+    background-color: rgb(143, 126, 158);
+    border: none;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+button .canbtn {
+    padding: .5rem;
+    width:80%;
+    margin: auto;
+    background-color: rgb(143, 126, 158);
+    border: none;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+/* WeatherPage */
+.WeatherPage{
+    margin-top: 3rem;
+}
+/* nav */
+.nav{
+     background-color: #fff;
+     width: 80%;
+     border-radius: 1rem;
+     margin: auto;
+     padding: 1rem;
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 1rem;
+}
+.nav h1{
+    color: rgb(78, 100, 140);
+}
+.nav button{
+    background-color:rgb(78, 100, 140) ;
+    color: #fff;
+    border: #fff;
+    width: 15%;
+    font-size: 1rem;
+    border-radius: 2rem;
+    font-weight:600;
+    cursor: pointer;
+}
+.nav button  .icon{
+    margin-right: 5px;
+}
+
+
+/* button filter */
+.buttonsnav{
+    width: 50%;
+    margin: auto;
+}
+.buttonsnav button{
+    width: 10%;
+    margin: 10px;
+}

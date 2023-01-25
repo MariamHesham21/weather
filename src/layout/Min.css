@@ -1,0 +1,47 @@
+.chartm{
+    background-color: #fff;
+    margin:auto;
+    border-radius: 1rem;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 1rem;
+
+}
+.chartm h3{
+    color: rgb(51, 52, 55);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.chartm h3 span{
+    color: rgb(78, 100, 140);
+    font-size: 1.5rem;
+}
+.chartm .chartsm{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* @media only screen and (max-width: 1793px) and (min-width:1440px){
+    .chart{
+        width:84%;
+        margin-bottom: 1rem;
+    }
+    .chart .charts{
+        width: 80%;
+        padding:1rem;
+    }
+}
+@media only screen and (max-width: 1440px) and (min-width:1024px){
+    .App{
+        color: rgb(77, 255, 0);
+    }
+    .chart{
+        width:90%;
+        margin-bottom: 1rem;
+    }
+    .chart .charts{
+        width: 100%;
+    }
+
+} */

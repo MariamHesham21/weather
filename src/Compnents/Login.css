@@ -1,0 +1,107 @@
+.login-form{
+    text-align: center;
+    padding-top: 10rem;
+    display: flex;
+    flex-flow: row-reverse;
+    width: 80%;
+    margin: auto;
+}
+.login-form img{
+    width: 39%;
+    height: 50vh;
+    border-radius: 0.2rem 2rem 2rem 0.2rem;
+    box-shadow: 5px 5px 5px 5px  #888888;
+}
+.login-form .form{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 2rem 0.2rem  0.2rem  2rem;
+    padding: 2rem;
+    height: 50vh;
+    box-shadow: 5px 5px 5px 5px  #888888;
+    
+}
+.form .inputForm{
+display: flex;
+flex-flow: column;
+text-align: start;
+width: 50%;
+margin: auto;
+}
+.form .inputForm input{
+    margin: .5rem;
+    padding: .6rem;
+}
+.form button{
+    width:30%;
+    margin: auto;
+    padding: .5rem;
+    background-color: rgb(143, 126, 158);
+    border: none;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sign-links {
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) and (min-width:425px){
+    .App{
+        color: aqua;
+    }
+    .login-form{
+        width: 98%;
+    }
+    .login-form img{
+        width: 30%;
+        height: 40vh;
+    }
+    .login-form .form{
+        width: 60%;
+        padding: .5rem;
+        height: 40vh;
+    }
+    .form .inputForm{
+        width:70%;
+    }
+    .form button{
+        width:24%;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .App{
+        color: rgb(51, 26, 141);
+    }
+    .login-form{
+        width: 90%;
+        margin: auto;
+    }
+    .login-form img{
+        display: none;
+    }
+    .login-form .form{
+        width: 90%;
+        border-radius: 0.5rem 0.5rem  0.5rem  0.5rem;
+        margin: auto;
+    }
+    .form .inputForm{
+        width: 89%;
+    }
+    .form button{
+        width:60%;
+        font-size: .8rem;
+    }
+    .sign-links{
+        display: flex;
+        flex-flow: column;
+    }
+
+}
